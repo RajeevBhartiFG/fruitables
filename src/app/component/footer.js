@@ -61,7 +61,7 @@ export default function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-item">
                             <h4 className="text-light mb-3">Contact</h4>
-                            <p>Address: Gaur City, Noida</p>
+                            <p>Address: Rajeev, Gaur City, Noida</p>
                             <p>Email:bharti.myinbox@gmail.com</p>
                             <p>Phone: 8882099400</p>
                             <p>Payment Accepted</p>
