@@ -1,5 +1,10 @@
+import  "bootstrap/dist/css/bootstrap.min.css"
 import { Inter } from "next/font/google";
+import BootstrapClient from "./component/bootstrapClient"
 import "./globals.css";
+import Navebar from "./component/navebar"
+import Header from "./component/header"
+import Footer from "./component/footer"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +16,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Header/>
+      <body>
+        <Navebar/>
+        {children}
+        <Footer/>
+        <BootstrapClient/>
+      </body>
     </html>
   );
 }
