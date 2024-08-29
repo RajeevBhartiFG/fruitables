@@ -13,7 +13,7 @@ export default function Navebar() {
             <div className="top-link pe-2">
               <a href="#" className="text-white"><small className="text-white mx-2">Privacy Policy</small>/</a>
               <a href="#" className="text-white"><small className="text-white mx-2">Terms of Use</small>/</a>
-              <a href="#" className="text-white"><small className="text-white ms-2">Sales and Refunds</small></a>
+              <a href="#" className="text-white"><small className="text-white ms-2">Sales </small></a>
             </div>
           </div>
         </div>
